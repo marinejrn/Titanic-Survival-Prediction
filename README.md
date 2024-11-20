@@ -21,25 +21,28 @@ Voici un aperçu des étapes principales du projet :
 4. **Optimisation**  
    - Ajustement des hyperparamètres pour améliorer les prédictions.
 
-## 📊 Résultats obtenus
+## 🚣‍♀️ Résultats obtenus
 
 ### **Précision des modèles** :
 - **Random Forest Classifier** : 85% d'accuracy. 🌟
 - **Logistic Regression** : 80% d'accuracy.
 - **K-Nearest Neighbors (KNN)** : 78% d'accuracy.
 
-### 📋 **Matrice de confusion** :
-Voici une matrice de confusion pour le modèle Random Forest Classifier, qui est le plus performant :
-
-![Matrice de confusion](path/to/confusion_matrix_image.png)  
-*(Ajoutez une capture de votre matrice de confusion)*
-
 ### 🧬 **Matrice de corrélation** :
 Une analyse des corrélations montre les relations entre les variables. Voici une matrice de corrélation visuelle :
 
-![Matrice de corrélation](path/to/correlation_matrix_image.png)  
-*(Ajoutez une capture de votre matrice de corrélation)*
+![Matrice de corrélation](matrice.jpg)  
 
+###  📊 **Diagramme variables d'importances** :
+Diagramme montrant les variables ayant le plus d'importance pour le modèle Random Forest Classifier :
+
+![Matrice de corrélation](importance.jpg)  
+
+Les variables influant le plus le chance de survie d'un passager (pour le modèle RFC) sont : 
+- le prix du billet
+- l'âge
+- le sexe
+Ce qui est cohérent avec la logique de l'époque ("les femmes et les enfants les plus riches d'abord !")
 
 ## 🛠️ Technologies et Librairies
 - **Langage** : Python 
@@ -49,5 +52,8 @@ Une analyse des corrélations montre les relations entre les variables. Voici un
   - Visualisation : `matplotlib`, `seaborn`
   - Modélisation : `scikit-learn`
 
+## 🚀 Lancer le projet
+Vous trouverez le notebook Python juste ici : [Noteboobk Python](Titanic_Kaggle.ipynb)  
+N'oubliez pas de télécharger [test.csv](test.csv) ainsi que [train.csv](train.csv) (pour l'apprentissage et le test) !
 
-## 📂 Structure du projet
+## J'espère que ce projet vous aura plu !
