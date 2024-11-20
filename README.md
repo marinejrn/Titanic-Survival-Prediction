@@ -31,18 +31,19 @@ Voici un aperçu des étapes principales du projet :
 ### 🧬 **Matrice de corrélation** :
 Une analyse des corrélations montre les relations entre les variables. Voici une matrice de corrélation visuelle :
 
-![Matrice de corrélation](matrice.jpg)  
+<img src="matrice.jpg" alt="Description de l'image" width="500"/>
 
 ###  📊 **Diagramme variables d'importances** :
 Diagramme montrant les variables ayant le plus d'importance pour le modèle Random Forest Classifier :
 
-![Matrice de corrélation](importance.jpg)  
+<img src="importance.jpg" alt="Description de l'image" width="500"/>
 
 Les variables influant le plus le chance de survie d'un passager (pour le modèle RFC) sont : 
 - le prix du billet
 - l'âge
 - le sexe
-Ce qui est cohérent avec la logique de l'époque ("les femmes et les enfants les plus riches d'abord !")
+ 
+Ce qui est cohérent avec la logique de l'époque (*"les femmes et les enfants les plus riches d'abord !"*)
 
 ## 🛠️ Technologies et Librairies
 - **Langage** : Python 
@@ -54,6 +55,6 @@ Ce qui est cohérent avec la logique de l'époque ("les femmes et les enfants le
 
 ## 🚀 Lancer le projet
 Vous trouverez le notebook Python juste ici : [Noteboobk Python](Titanic_Kaggle.ipynb)  
-N'oubliez pas de télécharger [test.csv](test.csv) ainsi que [train.csv](train.csv) (pour l'apprentissage et le test) !
+N'oubliez pas de télécharger [train.csv](train.csv) ainsi que [test.csv](test.csv) (pour l'apprentissage et le test) !
 
-## J'espère que ce projet vous aura plu !
+# Merci de votre attention ! 🤝
